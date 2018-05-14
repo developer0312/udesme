@@ -113,6 +113,9 @@ section {
   .wave .container .header .row .logo {
     margin-left: 1rem;
   }
+  .wave .container .main {
+    margin-top: -2rem;
+  }
   .wave .container .main h1 {
     text-align: center;
   }
