@@ -1,0 +1,143 @@
+section{
+	width: 100%;
+	min-height: 140vh;
+}
+.wave{
+	position: relative;
+	background: linear-gradient(to top right,#4905b9,#9c03bb);
+	.header{
+		margin-top: 1.5rem;
+	}
+	.logop{	
+			text-transform: uppercase;
+			font-size: 8px;
+			color: white;
+			margin-top: 1rem;
+	}
+	.circle1{
+		display: inline-block;
+	}
+	.circle{
+		background-color: white;
+		border-radius: 120px;
+		opacity: 0.5;
+		display: inline-block;
+		p{
+			padding: 2rem 1.5rem 1rem 1.5rem;
+			text-align: center;
+			font-size: 18px;
+		}
+	}
+	.right{
+		display: inline-block;
+	}
+	.phone{
+		font-size: 24px;
+		text-align: right;
+		text-transform: uppercase;
+		color: white;
+	}
+	.under{
+		font-size: 10px;
+		text-align: right;
+		text-transform: uppercase;
+		color: white;
+	}
+	.logo{display: inline-block;}
+}
+.wave:before{
+    	content: '';
+    	position: absolute;
+    	bottom:0;
+    	left:0;
+    	width: 100%;
+    	height: 200px;
+    	background: url(../img/Untitled-1.png);
+    	background-size: cover;
+    	background-repeat: no-repeat;
+}
+.main{
+	margin-top: 2rem;
+	h1{
+		line-height: 50px;
+		margin-top: 10rem;
+		font-size: 40px;
+		text-transform: uppercase;
+		color: white;
+		text-align: left;
+		font-weight: bold;
+	}
+	p{
+		margin-top: 3.5rem;
+		font-weight: lighter;
+		font-size: 18px;
+		text-transform: uppercase;
+		color: white;
+		text-align: left;
+	}
+	.maintitle{
+		display: inline-block;
+	}
+	.illustration{
+		display: inline-block;
+		img{
+			display: inline-block;
+			margin-top: 15rem;
+		}
+	}
+	.btn{background: #fc0; /* Цвет фона */
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6); /* Параметры тени */
+		margin-top: 8rem;
+		background-color: #9c03bb;
+		border-radius: 50px;
+			font-size: 12px;
+			text-transform: uppercase;
+			color: white;
+			padding: 2rem 3rem 2rem 3rem;
+	}
+}
+@media ( max-width: 1090px ) {
+	.wave{
+		.container{
+			.header{
+				.row{
+					
+				}
+			}
+			.main{
+				img{
+					width: 300px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 697px) {
+	.wave{
+		height: 170vh;
+		.container{
+			.header{
+				.row{
+					.logo{
+						margin-left: 1rem;
+					}
+
+				}
+			}
+			.main{
+				h1{
+					text-align: center;
+				}
+				p{
+					text-align: center;
+				}
+				.contactbtn{
+					text-align: center;
+				}
+				img{
+					display: none;
+				}
+			}
+		}
+	}
+}
